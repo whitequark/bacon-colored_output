@@ -2,7 +2,7 @@
 
 Make your test output more readable!
 
-!(example)[http://i.imgur.com/EpTpw.png]
+![Neat, isn't it?](http://i.imgur.com/EpTpw.png)
 
 ## Usage
 
