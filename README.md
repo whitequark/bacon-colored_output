@@ -8,6 +8,10 @@ Make your test output more readable!
 
 Trivial!
 
+```
+$ gem install bacon-colored_output
+```
+
 ``` ruby
 require 'bacon/colored_output'
 ```
