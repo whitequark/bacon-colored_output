@@ -15,6 +15,8 @@ module Bacon
     def color(escape_seq)
       if $stdout.respond_to?(:tty?) && $stdout.tty?
         escape_seq
+      else
+        ""
       end
     end
   end
