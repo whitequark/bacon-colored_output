@@ -4,7 +4,7 @@ module Bacon
       error = yield
 
       print error.empty? ? color("\e[32m") : color("\e[1;31m")
-      super
+      super(*args) { error }
       print color("\e[0m")
     end
 
